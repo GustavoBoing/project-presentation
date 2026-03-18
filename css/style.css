@@ -1,0 +1,230 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f8fa;
+    color: #1f2937;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+
+header { 
+    background-color: #000; 
+    color: #fff; 
+    padding: 5px; 
+    text-align: center; 
+    align-items: center;
+    height: 90px 
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+}
+
+/* HERO */
+
+.container {
+    padding: 100px 60px;
+    max-width: 1000px;
+}
+
+.container h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    max-width: 700px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 18px;
+    max-width: 650px;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.container button {
+    background-color: #111827;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 60px;
+    background-color: #eef1f5;
+}
+
+.project, .topics {
+    flex: 1;
+}
+
+.project h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.project p {
+    color: #6b7280;
+    max-width: 550px;
+}
+
+.topics {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px #e5e7eb;
+}
+
+.topics h3 {
+    margin-bottom: 20px;
+}
+
+.topics p {
+    color: #6b7280;
+}
+
+/* STRUCTURE */
+
+.structure {
+    text-align: center;
+    padding: 100px 60px;
+    background-color: white;
+}
+
+.structure h1 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.structure h1 {
+    grid-column: span 3;
+}
+
+.trust, .innovation, .sustentability {
+    text-align: center;
+}
+
+.trust i, .innovation i, .sustentability i {
+    font-size: 28px;
+    color: #1f2937;
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.trust p:nth-child(2),
+.innovation p:nth-child(2),
+.sustentability p:nth-child(2) {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.trust p:last-child,
+.innovation p:last-child,
+.sustentability p:last-child {
+    color: #6b7280;
+    max-width: 280px;
+    margin: auto;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 100px 60px;
+    background-color: #eef1f5;
+}
+
+.services h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.services hr {
+    width: 70px;
+    height: 4px;
+    background-color: #2563eb;
+    border: none;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.services h1,
+.services hr {
+    grid-column: span 3;
+}
+
+.construction, .reform, .infraestructure {
+    background: white;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 0 0 1px #e5e7eb;
+}
+
+.construction h2,
+.reform h2,
+.infraestructure h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.construction p,
+.reform p,
+.infraestructure p {
+    color: #6b7280;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 50px 60px;
+}
+
+.footer-content h2 {
+    margin-bottom: 20px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+footer p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
