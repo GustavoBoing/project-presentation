@@ -12,7 +12,7 @@ JavaScript
 
 Criar uma interface moderna, responsiva e intuitiva para apresentação institucional de uma construtora fictícia, destacando informações sobre serviços, valores da empresa e interação com o usuário.
 
-##⚙️ Funcionalidades implementadas
+## ⚙️ Funcionalidades implementadas
 
 Estruturação semântica com HTML
 Estilização responsiva com CSS
